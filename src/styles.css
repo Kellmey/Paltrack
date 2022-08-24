@@ -1,0 +1,35 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+    padding-top: 125px;
+    background: url(login1.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+font-size: 80px;
+color: yellow;
+text-transform: uppercase;
+}
+
+.par {
+    font-size: 15px;
+    color: white;
+    
+}
+
+.form-group{
+    color: yellow;
+    font-size: 20px;
+}
+
+.button{
+   margin-top: 30px;
+   background-color:lightskyblue;
+   border-radius: 10%;
+   width: 90px;
+   text-transform: uppercase;
+   font-weight: 600;
+}

@@ -1,0 +1,24 @@
+body {
+    margin: 30px;
+    background-color: darkgray;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 345px 345px 345px 345px 345px;
+    text-align: center;
+    
+}
+
+.grid > div {
+    padding: 5px;
+    background-color: lightslategray;
+    align-items: center;
+}
